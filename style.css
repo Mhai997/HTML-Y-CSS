@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* //aplicar un selector de forma global */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* 
+.header {
+    background-color: bisque;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.header_heading {
+    text-align: center;
+} */
+
+.input {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 6px;
+}
+
+.button {
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid #d7d7d7;
+    height: 40px;
+}
+
+
+/* .content-container {
+    width: 800px solid black;
+    border: 1px solid#d7d7d7;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: white;
+    padding: 0.01em 16px;
+    margin-top: 16px;
+    margin-bottom: 16px
+} */
+
+.slidebar-style {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+    border-right: 1px solid#d7d7d7;
+}
+
+.item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 25% 50%;
+}
+
+.div-style {
+    height: 200%;
+    width: 400px;
+}
