@@ -11,8 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-
-/* 
 .header {
     background-color: bisque;
     height: 80px;
@@ -25,7 +23,7 @@ body {
 
 .header_heading {
     text-align: center;
-} */
+}
 
 .input {
     background-color: rgb(255, 255, 255);
@@ -41,17 +39,21 @@ body {
     height: 40px;
 }
 
+.button:hover {
+    background-color: blue;
+}
 
-/* .content-container {
-    width: 800px solid black;
+.content-container {
     border: 1px solid#d7d7d7;
-    margin: 0 auto;
-    margin-top: 120px;
-    background-color: white;
-    padding: 0.01em 16px;
-    margin-top: 16px;
-    margin-bottom: 16px
-} */
+    width: 80%;
+    position: relative;
+    left: 20%;
+}
+
+.center-container {
+    font-weight: bold;
+    text-align: center;
+}
 
 .slidebar-style {
     height: 100%;
@@ -75,11 +77,6 @@ body {
 
 .grid-container {
     display: grid;
+    /* grid-template-columns: 25% 100%; */
     gap: 1em;
-    grid-template-columns: 25% 50%;
-}
-
-.div-style {
-    height: 200%;
-    width: 400px;
 }
